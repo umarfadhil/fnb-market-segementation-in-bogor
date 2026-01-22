@@ -52,17 +52,20 @@ If you’re a business owner, investor, or city planner, “FnB is growing” is
    cd fnb-market-segementation-in-bogor
 
 2. **Create env**
+   ```bash
    python -m venv .venv
    # Windows:
    .\.venv\Scripts\activate
    # Mac/Linux:
    source .venv/bin/activate
 
-3. **Install dependencies**
+4. **Install dependencies**
+   ```bash
    pip install -U pip
    pip install pandas numpy scikit-learn matplotlib folium jupyter
 
-4. **Open Jupyter**
+5. **Open Jupyter**
+   ```bash
    jupyter notebook
 
 ### Option B — View the interactive map
