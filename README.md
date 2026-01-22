@@ -1,8 +1,8 @@
 # FnB Market Segmentation in Bogor 🍜📍
 
-This project analyzes the Food & Beverage (FnB) market in **Kota Bogor** to uncover hidden patterns across **areas**, **categories**, and **customer value** using data-driven segmentation techniques. :contentReference[oaicite:0]{index=0}
+This project analyzes the Food & Beverage (FnB) market in **Kota Bogor** to uncover hidden patterns across **areas**, **categories**, and **customer value** using data-driven segmentation techniques.
 
-Portfolio page: **petalytix.id/en/portfolio/fnb-market-segmentation-in-bogor** :contentReference[oaicite:1]{index=1}
+Portfolio page: **petalytix.id/en/portfolio/fnb-market-segmentation-in-bogor**
 
 ---
 
@@ -11,21 +11,21 @@ Portfolio page: **petalytix.id/en/portfolio/fnb-market-segmentation-in-bogor** :
 If you’re a business owner, investor, or city planner, “FnB is growing” isn’t actionable. This project turns location data into decisions like:
 
 - Which areas are **over-saturated vs under-served**?
-- Which areas likely contain **higher value customers** (proxy: willingness-to-pay / price signals)?
+- Which areas likely contain **higher value customers** (proxy: willingness-to-pay (WTP) / price signals)?
 - What **market segments** exist in Bogor, and how do they differ spatially?
 
 ---
 
 ## What you’ll find in this repo
 
-- **`FnB_Market_Segmentation_in_Bogor.ipynb`** — main analysis notebook (data prep → feature engineering → clustering → profiling → mapping). :contentReference[oaicite:2]{index=2}  
-- **`bogor_fnb_map.html`** — interactive map output (clusters / WTP-style layers). :contentReference[oaicite:3]{index=3}  
+- **`FnB_Market_Segmentation_in_Bogor.ipynb`** — main analysis notebook (data prep → feature engineering → clustering → profiling → mapping).
+- **`bogor_fnb_map.html`** — interactive map output (clusters / WTP-style layers).
 
 ---
 
 ## Approach (high level)
 
-1. **Collect & clean location-based FnB data** (e.g., categories, coordinates, popularity proxies, and price/WTP signals if available).
+1. **Collect & clean location-based FnB data from Google Maps** (e.g., categories, coordinates, popularity proxies, and price/WTP signals if available).
 2. **Feature engineering**  
    Examples of useful signals:
    - Category mix (and diversity/balance)
